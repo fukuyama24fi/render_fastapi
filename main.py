@@ -36,10 +36,10 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>今日の晩御飯はカレー！明日はシチューです！！！！</title>
+            <title>深夜飯だいすき</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1></h1>今日の晩御飯はカレー！明日はシチューです！！！！
         </body>
     </html>
     """
