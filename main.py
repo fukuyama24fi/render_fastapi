@@ -39,7 +39,7 @@ def index():
             <title>深夜飯だいすき</title>
         </head>
         <body>
-            <h1></h1>今日の晩御飯はカレー！明日はシチューです！！！！
+            <h1>今日の晩御飯はカレー！明日はシチューです！！！！</h1>
         </body>
     </html>
     """
@@ -47,5 +47,13 @@ def index():
 
 @app.post("/foodDelivery")
 async def give_order(order):
-    return {"response": f"店です。 {order}のご注文ありがとうございます！30秒後に到着いたします！！"}  # f文字列というPythonの機能を使っている
+    <html>
+        <head>
+            <title>注文☆送料は十万円</title>
+        </head>
+        <body>
+            <h1>フードデリバリーはこちらから↓↓商品名を記入してください☆</h1>
+        </body>
+    </html>
+    return {"response": f"ウーボーイーツです。 {order}のご注文ありがとうございます！30秒後に到着いたします！！"}  # f文字列というPythonの機能を使っている
 
